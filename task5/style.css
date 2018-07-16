@@ -1,0 +1,95 @@
+body {
+    background: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000;
+    }
+
+.one {
+    background:linear-gradient(45deg, #6fb5e4 26%, #6476b7);
+    height: 100px ;   
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.two {
+    background:linear-gradient(45deg, #6fb5e4 26%, #6476b7);
+    height: 250px;   
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 15px;
+   
+}
+
+.brand, .nav, .tools {
+    font-style:italic;
+    font-size: 20px;
+    height: 50px;
+    background: #979898;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_feature, .hero_cal_action, .add  {
+    font-style:italic;
+    font-size: 20px;
+    height: 100px;
+    background: #979898;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article, .article_main, .sidebar{
+    font-style:italic;
+    font-size: 20px;
+    height: 220px;
+    background: #979898;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer {
+    height: 100px;
+    background: #343a40;
+        color: #fff!important;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .article-f{
+        height: 110px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+    
+    .hero-f{
+        display:none;
+    }
+}
