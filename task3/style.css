@@ -1,0 +1,24 @@
+.text {
+    position: absolute;
+    font-family:serif;
+    font-size: 100px;
+    text-align: center;
+    color: #f35626;
+    top: 240px; 
+    left: 500px;
+    width: 500px;
+    height: 100px;
+    text-align:center;
+    animation:swing 4s infinite;
+   
+}
+  @keyframes swing{
+    
+    0%,20%,35%,50%,65%,80%,95%{
+      transform:rotate(15deg);
+    }
+    10%,25%,40%,55%,70%,85%,100%{
+      transform:rotate(-15deg);
+    }
+  }
+  
